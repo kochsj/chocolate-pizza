@@ -1,6 +1,4 @@
 div{
-    height: 30px;
-    background-color: grey;
     display: inline-block;
 }
 #listDiv{
@@ -9,8 +7,13 @@ div{
     width: 100%;
 }
 body{
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+main {
     width: 901px;
-
+    margin-top: 20px;
 }
 ul{
     display: inline-block;
@@ -22,4 +25,56 @@ margin-left: 150px;
 }
 img{
     display: inline-block;
+}
+#divHeader {
+    margin-right: 340px;
+    margin-left: 10px;
+    background-color: white;
+}
+header, footer {
+    width: 901px;
+}
+h2, .pHeader, h1, h4 {
+    margin: 0px;
+}
+.pHeader {
+    display: inline-block;
+}
+.greyBar {
+    height: 20px;
+    background-image: url(/images/hr-img.png);
+    background-repeat: repeat-x;
+    width: 901px;
+    margin-top: 15px;
+    display: block;
+}
+#printImg {
+    margin-left: 560px;
+}
+#bigImg {
+    margin-top: 20px;
+}
+.bodyParagraph {
+    text-indent: 50px;
+    font-size: 19.75px;
+}
+#VenessaOuterDiv {
+    display: block;
+}
+.secondRepeat {
+    width: 430px;
+    background-image: url(/images/hr-img.png);
+    background-repeat: repeat-x;
+    height: 10px;
+}
+.pFooter {
+    text-align: center;
+    margin: 0px;
+}
+footer {
+    margin-top: 20px;
+}
+#VenessaDiv {
+    margin-left: 10px;
+    
 }
