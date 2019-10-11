@@ -1,0 +1,25 @@
+div{
+    height: 30px;
+    background-color: grey;
+    display: inline-block;
+}
+#listDiv{
+    background-image:url(/images/list-bg.png);
+    height: 100%;
+    width: 100%;
+}
+body{
+    width: 901px;
+
+}
+ul{
+    display: inline-block;
+    margin-left: 50px;
+    list-style-type: square;
+}
+#rightList{
+margin-left: 150px;
+}
+img{
+    display: inline-block;
+}
