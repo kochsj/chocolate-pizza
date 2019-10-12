@@ -1,6 +1,9 @@
 div{
     display: inline-block;
 }
+h1 {
+    font-family: 'Anton', sans-serif;
+}
 #listDiv{
     background-image:url(/images/list-bg.png);
     height: 100%;
@@ -19,6 +22,8 @@ ul{
     display: inline-block;
     margin-left: 50px;
     list-style-type: square;
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 20px;
 }
 #rightList{
 margin-left: 150px;
@@ -27,7 +32,7 @@ img{
     display: inline-block;
 }
 #divHeader {
-    margin-right: 340px;
+    margin-right: 400px;
     margin-left: 10px;
     background-color: white;
 }
@@ -39,6 +44,9 @@ h2, .pHeader, h1, h4 {
 }
 .pHeader {
     display: inline-block;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
 }
 .greyBar {
     height: 20px;
@@ -49,7 +57,7 @@ h2, .pHeader, h1, h4 {
     display: block;
 }
 #printImg {
-    margin-left: 560px;
+    margin-left: 620px;
 }
 #bigImg {
     margin-top: 20px;
@@ -60,6 +68,8 @@ h2, .pHeader, h1, h4 {
 }
 #VenessaOuterDiv {
     display: block;
+    padding-left: 37px;
+    width: 901px;
 }
 .secondRepeat {
     width: 430px;
@@ -75,6 +85,28 @@ footer {
     margin-top: 20px;
 }
 #VenessaDiv {
-    margin-left: 10px;
-    
+    margin-left: 30px;
+    vertical-align: top;
+    width: 560px;
+    margin-right: 40px;
+}
+button {
+    height: 40px;
+    width: 150px;
+    background-color: sienna;
+    color: white;
+    font-size: 14px;
+    vertical-align: top;
+    margin-top: 20px;
+}
+#vanessaP {
+    font-size: 18px;
+}
+h4 {
+    font-size: 20px;
+}
+h2 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: bolder;
+    font-size: 30px;
 }
